@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage ('pull') {
             steps {
+                git 'https://github.com/Shubham-Patil-Hydra/studentapp-ui.git'
                 echo 'Pulling Completed'
             }
         }
